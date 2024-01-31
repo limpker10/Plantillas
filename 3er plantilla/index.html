@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gusto</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+  <!-- Flickity -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+
+  <!-- Stylesheet
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Navigation
+    ==========================================-->
+  <nav id="menu" class="navbar navbar-default navbar-expand-lg fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="pe-5">
+        <img src="img/logo.png" width="60" alt="">
+      </div>
+
+      <!-- Botón de la barra de navegación -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Opciones de la barra de navegación -->
+      <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end " id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
+          <li class="nav-item"><a class="nav-link" href="#features">Especiales</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#restaurant-menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contactenos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <h1>Gusto</h1>
+              <p>Reservaciones: (+51) 987 545 342</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Features Section -->
+  <div id="especiales" class="text-center">
+    <div class="container">
+      <div class="">
+        <h2>especiales</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="d-flex justify-content-between flex-column flex-md-row">
+        <div class="p-5 ">
+          <div class="features-item">
+            <h3>Especial 1</h3>
+            <img src="img/specials/1.jpg" class="img-fluid" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+              commodo.</p>
+          </div>
+        </div>
+        <div class="p-5 ">
+          <div class="features-item">
+            <h3>Especial 2</h3>
+            <img src="img/specials/2.jpg" class="img-fluid" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+              commodo.</p>
+          </div>
+        </div>
+        <div class="p-5 ">
+          <div class="features-item">
+            <h3>Especial 3</h3>
+            <img src="img/specials/3.jpg" class="img-fluid" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+              commodo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 about-img">
+
+        </div>
+        <div class="col-sm-12 col-md-5 ms-auto ">
+          <div class="about-text">
+            <div class="section-title">
+              <h2>Nosotros</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+              commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+              commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Restaurant Menu Section -->
+  <div id="restaurant-menu">
+    <div class="container">
+      <div class="menu-section">
+        <h2 class="menu-section-title">Desayunos y entradas</h2>
+      </div>
+      <div class="container">
+        <div class="carousel"
+          data-flickity='{ "wrapAround": true, "cellAlign": "center", "contain": true, "draggable": false , "pageDots": false }'>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/01.jpg'); ">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/02.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/03.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/04.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/specials/1.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <!-- Añade más elementos según sea necesario -->
+        </div>
+      </div>
+      <div class="menu-section">
+        <h2 class="menu-section-title">Platillos principales</h2>
+      </div>
+      <div class="container">
+        <div class="carousel"
+          data-flickity='{ "wrapAround": true, "cellAlign": "center", "contain": true, "draggable": false , "pageDots": false }'>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/01.jpg'); ">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/02.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/03.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/04.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/specials/1.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <!-- Añade más elementos según sea necesario -->
+        </div>
+      </div>
+      <div class="menu-section">
+        <h2 class="menu-section-title">Cena</h2>
+      </div>
+      <div class="container">
+        <div class="carousel"
+          data-flickity='{ "wrapAround": true, "cellAlign": "center", "contain": true, "draggable": false , "pageDots": false }'>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/01.jpg'); ">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo.</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/02.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/03.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/04.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/specials/1.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <!-- Añade más elementos según sea necesario -->
+        </div>
+      </div>
+      <div class="menu-section">
+        <h2 class="menu-section-title">Postres</h2>
+      </div>
+      <div class="container">
+        <div class="carousel"
+          data-flickity='{ "wrapAround": true, "cellAlign": "center", "contain": true, "draggable": false , "pageDots": false }'>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/01.jpg'); ">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/02.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo.</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/03.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo.</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/gallery/04.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carrd-carrousel"
+              style="background: linear-gradient(to bottom , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)) ,url('img/specials/1.jpg');">
+              <div class="carrd-carrousel-content">
+                <h3 class="carrd-carrousel-title">Nombre del platillo</h3>
+                <p class="card-text">Descripcion del platillo</p>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center precio">
+              <span>12$</span>
+            </div>
+          </div>
+          <!-- Añade más elementos según sea necesario -->
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <!-- Gallery Section -->
+  <div id="gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="gallery-item"> <img src="img/gallery/01.jpg" class="img-fluid" alt=""></div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="gallery-item"> <img src="img/gallery/02.jpg" class="img-fluid" alt=""></div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="gallery-item"> <img src="img/gallery/03.jpg" class="img-fluid" alt=""></div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="gallery-item"> <img src="img/gallery/04.jpg" class="img-fluid" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team Section -->
+  <div id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="col-md-10 ">
+            <div class="section-title">
+              <h2>Especialistas en la cocina</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+              commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+              commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div><img src="img/chef.jpg" class="img-team"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="text-center container">
+      <h1>Contactenos</h1>
+    </div>
+    <div class="container text-center row mx-auto ">
+      <div class="col-md-4">
+        <h3>Reservaciones</h3>
+        <div class="contact-item">
+          <p>Porfavor llamar</p>
+          <p>(887) 654-3210</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Dirección</h3>
+        <div class="contact-item">
+          <p>4321 California St,</p>
+          <p>San Francisco, CA 12345</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Abierto desde:</h3>
+        <div class="contact-item">
+          <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+          <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div id="footer">
+    <div class="container row text-center">
+      <div class="col-md-6">
+        <p>&copy; 2017 Gusto. All rights reserved. Design by <a href="http://www.templatewire.com"
+            rel="nofollow">TemplateWire</a></p>
+      </div>
+      <div class="col-md-6 ms-auto">
+        <div class="social">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/flickity.js"></script>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
