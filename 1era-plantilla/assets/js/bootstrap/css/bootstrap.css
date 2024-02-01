@@ -4601,9 +4601,10 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  color: white;
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  border: 2px solid rgba(255, 255, 255, 0.137);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
