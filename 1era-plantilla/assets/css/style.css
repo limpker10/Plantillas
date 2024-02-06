@@ -313,6 +313,41 @@ section {
   }
 }
 
+.tag-line {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #f5452e;
+  padding-left: 60px;
+}
+
+.tag-line::before {
+  content: "";
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f5452e;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    margin: 20px 0px;
+    max-width: 80%;
+    border-radius: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
