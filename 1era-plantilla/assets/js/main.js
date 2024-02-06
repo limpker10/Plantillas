@@ -91,16 +91,16 @@
   });
 
   /**
-   * Clients Slider
-   */
+ * Clients Slider con soporte responsivo para 8 imágenes
+ */
   new Swiper('.clients-slider', {
     speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000,
       disableOnInteraction: false
     },
-    slidesPerView: 'auto',
+
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -117,11 +117,11 @@
       },
       640: {
         slidesPerView: 4,
-        spaceBetween: 80
+        spaceBetween: 70
       },
       992: {
         slidesPerView: 6,
-        spaceBetween: 120
+        spaceBetween: 30
       }
     }
   });

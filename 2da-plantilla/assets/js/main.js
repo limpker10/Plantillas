@@ -143,7 +143,7 @@
   });
 
   /**
- * Clients Slider con soporte responsivo para 8 imágenes
+ * Clients Slider
  */
   new Swiper('.clients-slider', {
     speed: 400,
