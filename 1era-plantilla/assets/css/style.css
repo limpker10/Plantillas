@@ -52,6 +52,15 @@ a {
 
   .ul-bg {
     background-color: #012970;
+    width: 40%;
+  }
+}
+
+@media (max-width : 425px) {
+
+  .ul-bg {
+
+    width: 50%;
   }
 }
 
@@ -444,10 +453,10 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 70px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  box-shadow: 0px -1px 20px 2px #08429863;
 }
 
 .services .icon-box .icon {
@@ -496,7 +505,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: #c7bbbb;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -576,7 +585,6 @@ section {
   display: flex;
   justify-content: center;
   box-shadow: #012970;
-  margin: 0px 10px;
 }
 
 @media (max-width: 1024px) {
@@ -591,15 +599,21 @@ section {
     margin: 12px 0px;
   }
 
-  .wrapper-box>div {
+  .wrapper-box {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .wrapper-box {
     width: 50%;
   }
 }
 
 @media (max-width: 425px) {
 
-
-  .wrapper-box>div {
+  .wrapper-box {
     width: 100%;
   }
 }

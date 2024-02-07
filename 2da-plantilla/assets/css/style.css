@@ -150,13 +150,13 @@ section {
   align-items: center;
   justify-content: center;
   padding: 23px 40px;
-  /* font-size: calc(1.4rem + 0.6vw); */
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
+
 
 @media (max-width : 768px) {
   .list-collapse {
@@ -165,6 +165,15 @@ section {
 
   .ul-bg {
     background-color: #012970;
+    width: 40%;
+  }
+}
+
+@media (max-width : 425px) {
+
+  .ul-bg {
+
+    width: 50%;
   }
 }
 
@@ -298,6 +307,13 @@ section {
   .hero h2 {
     font-size: 24px;
   }
+
+  .hero .hero-img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
 
   .hero .hero-img img {
     width: 100%;
