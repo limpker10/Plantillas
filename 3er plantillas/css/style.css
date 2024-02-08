@@ -129,6 +129,12 @@ i {
 	margin: 0px 7px 0px 7px;
 }
 
+.text-boton {
+	font-size: 15px;
+	margin-left: 8px;
+	margin-right: 10px;
+}
+
 .navbar .navbar-nav {
 	display: flex;
 	float: none;
@@ -142,12 +148,12 @@ i {
 
 
 #menu {
-	padding: 20px;
+	padding: 12px;
 	transition: all 0.8s;
 }
 
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: rgb(0 0 0 / 72%);
 }
 
 #menu h3 {
@@ -175,10 +181,11 @@ i {
 	height: auto;
 }
 
+
 .on {
 	background-color: #262626 !important;
-	padding: 0 !important;
-	padding: 15px 10px !important;
+	padding: auto !important;
+	padding: auto !important;
 	border-bottom: solid 1px #eaecec73;
 }
 
@@ -207,17 +214,32 @@ i {
 	background-color: #FFF;
 }
 
+.collapse {
+	transition: height 0.3s ease;
+}
+
 .ul-bg {
-	background-color: #00000000;
+	background-color: rgb(0 0 0 / 72%);
 	color: white;
 	position: fixed;
 	z-index: 1000;
-	top: 50px;
+	top: 66px;
 	transition: 0.5s;
 }
 
 .ul-bg li {
 	border-bottom: solid 1px #eaecec73;
+}
+
+.w-custom {
+	width: 50%;
+}
+
+@media (min-width : 500px) and (max-width : 900px) {
+	.w-custom {
+		width: 30%;
+	}
+
 }
 
 
@@ -255,7 +277,8 @@ i {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/creacion-bicicletas-taller.jpg) center no-repeat;
+	background: url(../img/bg-inicio.jpg) center center no-repeat;
+	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -297,6 +320,21 @@ header .intro-text {
 	padding: 60px 0;
 }
 
+#especiales h3 {
+	font-size: 30px;
+	margin-top: 36px;
+}
+
+#especiales h4 {
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.h3-nosotros {
+	font-size: 30px;
+	margin-top: 10px;
+}
+
 #especiales img {
 	margin: 30px auto 20px;
 }
@@ -327,18 +365,14 @@ header .intro-text {
 	background: #f6f6f6;
 }
 
-#about h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
+
 
 #about .about-text {
 	padding: 80px 0;
 }
 
 #about .about-img {
-	background: #444 url(../img/ferreteria.jpg) center center no-repeat;
+	background: #444 url(../img/bg-nosotros.jpg) center center no-repeat;
 	background-size: cover;
 	height: 570px;
 }
@@ -484,11 +518,7 @@ header .intro-text {
 	padding: 64px 0;
 }
 
-#team h2::after {
-	bottom: 0;
-	margin-left: 0;
-	left: 0;
-}
+
 
 
 #team .team-img {
@@ -567,6 +597,9 @@ header .intro-text {
 	margin-bottom: 6px;
 	display: inline-block;
 }
+#contact a :hover {
+	color: #ff0000;
+}
 
 #contact li i.fa {
 	font-size: 30px;
@@ -583,7 +616,10 @@ header .intro-text {
 #contact a {
 	text-decoration: none;
 }
-
+#contact hr{
+	font-size: 10px;
+	margin-top: 30px;
+}
 .btn-redes {
 	background: red;
 	border-radius: 20px;

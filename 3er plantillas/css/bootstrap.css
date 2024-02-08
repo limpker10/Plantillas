@@ -100,7 +100,6 @@ body {
 }
 
 hr {
-  margin: 1rem 0;
   color: inherit;
   border: 0;
   border-top: 1px solid;
@@ -3774,8 +3773,8 @@ textarea.form-control-lg {
   --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
   --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.9);
   --bs-navbar-nav-link-padding-x: 0.5rem;
-  --bs-navbar-toggler-padding-y: 0.25rem;
-  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-padding-y: 0.15rem;
+  --bs-navbar-toggler-padding-x: 0.55rem;
   --bs-navbar-toggler-font-size: 1.25rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='20' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.723);
@@ -7310,7 +7309,7 @@ textarea.form-control-lg {
 }
 
 .w-25 {
-  width: 25% !important;
+  width: 30% !important;
 }
 
 .w-50 {

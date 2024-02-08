@@ -30,6 +30,17 @@ function main() {
     // Hide nav on click
 
   }());
+  function cerrarMenuDesplegable() {
+    var navbarNav = document.getElementById('navbarNav');
+    if (navbarNav.classList.contains('show')) {
+      navbarNav.classList.remove('show');
+    }
+  }
+
+  // Agrega este evento a cada enlace del menú para cerrar el menú desplegable cuando se haga clic
+  document.querySelectorAll('.navbar-nav a').forEach(function(enlace) {
+    enlace.addEventListener('click', cerrarMenuDesplegable);
+  });
 
 
 }

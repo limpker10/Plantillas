@@ -4202,7 +4202,8 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  /* color: var(--bs-nav-link-hover-color); */
+  color: rgb(144, 158, 17);
 }
 
 .nav-link.disabled {

@@ -44,9 +44,9 @@
         <li class="nav-item"><a class="nav-link" href="">
           <div class="bt-tienda">
             <i class="bi bi-cart-fill " ></i>
+            <span class="text-boton">Tienda virtual</span>
           </div>
         </a></li>
-        <li class="nav-item"><a class="nav-link" href="#features">Especiales</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
         <li class="nav-item"><a class="nav-link" href="#restaurant-menu">Productos</a></li>
         <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
@@ -55,23 +55,22 @@
     </div>
   </nav>
   <div class="d-flex justify-content-end">
-    <div class="collapse ul-bg w-50" id="navbarNav">
+    <div class="collapse ul-bg w-custom" id="navbarNav">
       <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link " href="#hero">Especiales</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link " href="#about">Quienes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#services">Productos</a>
+          <a class="nav-link " href="#restaurant-menu">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#testimonials">Equipo</a>
+          <a class="nav-link " href="#team">Equipo</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link  " href="#contact">Contáctenos</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="#">Tienda Virtual</a>
         </li>
       </ul>
 
@@ -93,43 +92,46 @@
     </div>
   </header>
   <!-- Features Section -->
-  <div id="especiales" class="text-center">
-    <div class="container">
-      <div class="">
-        <h2>Nuestros valores</h2>
-      </div>
-    </div>
-    <div class="container">
-      <div class="d-flex justify-content-between flex-column flex-md-row">
-        <div class="p-5 ">
-          <div class="especiales-item">
-            <h3>Calidad</h3>
-            <img src="img/calidad.png" class="img-especiales" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
-              commodo.</p>
-          </div>
-        </div>
-        <div class="p-5 ">
-          <div class="especiales-item">
-            <h3>Variedad</h3>
-            <img src="img/variedad.png" class="img-especiales" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
-              commodo.</p>
-          </div>
-        </div>
-        <div class="p-5 ">
-          <div class="especiales-item">
-            <h3>Precios justos</h3>
-            <img src="img/mejor-precio.png" class="img-especiales" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
-              commodo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- About Section -->
   <div id="about">
+    <div id="especiales" class="text-center">
+      <div class="container">
+        <div class="">
+          <h2>Nosotros</h2>
+        </div>
+        <div>
+          <h3>Nuestros valores</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-flex justify-content-between flex-column flex-md-row">
+          <div class="p-5 ">
+            <div class="especiales-item">
+              <h4>Calidad</h4>
+              <img src="img/calidad.png" class="img-especiales" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                commodo.</p>
+            </div>
+          </div>
+          <div class="p-5 ">
+            <div class="especiales-item">
+              <h4>Variedad</h4>
+              <img src="img/variedad.png" class="img-especiales" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                commodo.</p>
+            </div>
+          </div>
+          <div class="p-5 ">
+            <div class="especiales-item">
+              <h4>Precios justos</h4>
+              <img src="img/mejor-precio.png" class="img-especiales" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
+                commodo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 col-md-6 about-img">
@@ -138,7 +140,7 @@
         <div class="col-sm-12 col-md-5 ms-auto ">
           <div class="about-text text-center">
             <div class="section-title">
-              <h2>Nosotros</h2>
+              <h3 class="h3-nosotros">¿Quienes somos?</h3>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
               commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
@@ -412,7 +414,7 @@
   </div>
   <div class=" ">
     <div class="text-center  mt-5">
-      <h2> Nuestros proovedores</h2>
+      <h2> Nuestros proveedores</h2>
     </div>
     <div class="container bg-proveedores mt-5" id="proveedores">
       <div class="carousel"
@@ -451,7 +453,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
           <div class="col-md-10 ">
             <div class="section-title">
-              <h2>Especialistas en la cocina</h2>
+              <h2>Equipo de trabajo</h2>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
               commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
@@ -504,16 +506,17 @@
           marginwidth="0"
           src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Pasaje%20Santa%20Cruz%20107%20Cayma%20-%20Arequipa%20Cayma%20-%20Arequipa+(Mi%20nombre%20de%20negocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
       </div>
+      <hr >
       <div class="container p-2">
-        <div class="text-center p-5">
+        <div class="text-center p-4">
           <h3>Visita nuestras redes sociales</h3>
         </div>
         <div class="">
           <div class="social row">
-            <ul class="col-12 d-flex justify-content-center">
-              <li class="col-4"><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
-              <li class="col-4"><a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
-              <li class="col-4"><a href="#"><i class="fa fa-whatsapp"></i><span>Whatsapp</span></a></li>
+            <ul class="col-12 d-flex justify-content-center row">
+              <li class="col-md-4 col-sm-12 p-4"><div ><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></div></li>
+              <li class="col-md-4 col-sm-12 p-4"><div ><a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a></div></li>
+              <li class="col-md-4 col-sm-12 p-4"><div ><a href="#"><i class="fa fa-whatsapp"></i><span>Whatsapp</span></a></div></li>
             </ul>
           </div>
         </div>
@@ -523,7 +526,7 @@
 
 
   <div id="footer">
-    <div class="container row text-center d-flex justify-content-center align-items-center>
+    <div class="container row text-center d-flex justify-content-center align-items-center">
       <div class="col-md-6">
         <p>&copy; 2017 Gusto. All rights reserved. Design by <a href="http://www.templatewire.com"
             rel="nofollow">TemplateWire</a></p>
